@@ -1,0 +1,23 @@
+/*----------------------------------------*/
+/* Custom CSS
+/*----------------------------------------*/
+
+.spad {
+	padding-top: 96px;
+	padding-bottom: 85px;
+}
+
+.header-section {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6)),
+		/* url(/public/assets/img/erik-odiin-787777-unsplash.jpg); */
+    /* Photo by Erik Odiin on Unsplash */
+		url(/assets/img/erik-odiin-787777-unsplash.jpg);
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* vertical center */
+	display: flex;
+  align-items: center;
+	background-attachment: fixed;
+  color: white;
+}
