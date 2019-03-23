@@ -10,17 +10,6 @@
   </div>
 </section>
 
-{{!-- <div class="container">
-  <div class="jumbotron">
-    <h1 class="display-4"><i class="fab fa-facebook-square"></i> Friend Finder</h1>
-    <hr class="my-4">
-    <h3>Answer a few basic questions.</h3>
-    <h3>Then find the friend with the greatest compatibility!</h3>
-    <a class="btn btn-lg btn-primary" href="/survey" role="button">
-      <i class="far fa-list-alt"></i> Go to Survery</a>
-  </div>
-</div> --}}
-
 
 {{!-- Burgers Added Column --}}
 <div class="container mt-5">
@@ -42,23 +31,14 @@
         {{/each}}
     </div>
 
-
-
     {{!-- Burgers Devoured Column --}}
     <div class="col-6">
-
       <h3 class="mb-3">Oopss... Devoured Burgers</h3>
-
         {{!-- Iterate through 'burgers' data item
           for the ones that are already devoured. --}}
         {{#each burgers}}
         {{#if this.devoured}}
           <p class="p-2 mb-3 bg-light text-dark">{{this.burger_name}}</p>
-
-          {{!-- <form action="/{{this.id}}?_method=PUT" method="POST">
-            <input type="hidden" name="devoured" value="false">
-            <button type="submit" class="btn btn-danger btn-sm">MAKE ANOTHER!</button>
-          </form> --}}
 
         {{/if}}
         {{/each}}
